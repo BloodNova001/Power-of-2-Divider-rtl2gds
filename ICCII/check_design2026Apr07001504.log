@@ -1,0 +1,58 @@
+****************************************
+ Report : check_design
+ Options: { pre_placement_stage }
+ Design : cordic
+ Version: W-2024.09
+ Date   : Tue Apr  7 00:15:04 2026
+****************************************
+
+****************************************
+Report : Data Mismatches
+Version: W-2024.09
+Date   : Tue Apr  7 00:15:04 2026
+****************************************
+No mismatches exist on the design.
+1
+[icc2-lic Tue Apr  7 00:15:04 2026] Command 'check_mv_design' requires licenses
+[icc2-lic Tue Apr  7 00:15:04 2026] Attempting to check-out alternate set of keys directly with queueing
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending count request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Count request for 'ICCompilerII-8' returned 1 
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending check-out request for 'ICCompilerII-8' (1) with wait option
+[icc2-lic Tue Apr  7 00:15:04 2026] Check-out request for 'ICCompilerII-8' with wait option succeeded
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending checkout check request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Checkout check request for 'ICCompilerII-8' returned 0 
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending count request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Count request for 'ICCompilerII-8' returned 1 
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending count request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Count request for 'ICCompilerII-NX' returned 1 
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending check-out request for 'ICCompilerII-NX' (1) with wait option
+[icc2-lic Tue Apr  7 00:15:04 2026] Check-out request for 'ICCompilerII-NX' with wait option succeeded
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending checkout check request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Checkout check request for 'ICCompilerII-NX' returned 0 
+[icc2-lic Tue Apr  7 00:15:04 2026] Sending count request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:15:04 2026] Count request for 'ICCompilerII-NX' returned 1 
+[icc2-lic Tue Apr  7 00:15:04 2026] Check-out of alternate set of keys directly with queueing was successful
+1
+Information: There are no relative placement groups in the design. (NDMUI-173)
+1
+1
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  MV-027       Warn   1          The tie-off connection '%tieNet' has not been implemented.
+  ----------------------------------------------------------------------------------------------------
+  Total 2 EMS messages : 0 errors, 1 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary *** 
+  ----------------------------------------------------------------------------------------------------
+   Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+     NDMUI-173   Info          1 There are no relative placement groups in the design.
+       PVT-032   Info          1 Corner %s: no PVT mismatches.
+  ----------------------------------------------------------------------------------------------------
+  Total 2 non-EMS messages : 0 errors, 0 warnings, 2 info.
+  ----------------------------------------------------------------------------------------------------

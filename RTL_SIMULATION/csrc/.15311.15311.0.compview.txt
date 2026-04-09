@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1775556313.873707326, "rt":3.35, "ut":0.08, "st":0.11}}
+{"vcselab":{"timestamp_begin":1775556317.278148073, "rt":2.45, "ut":0.10, "st":0.06}}
+{"link":{"timestamp_begin":1775556319.775922523, "rt":0.11, "ut":0.06, "st":0.04}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1775556313.543826910}
+{"VCS_COMP_START_TIME": 1775556313.543826910}
+{"VCS_COMP_END_TIME": 1775556319.975456843}
+{"VCS_USER_OPTIONS": "-full64 cordic_rtl.v cordic_tb.v -debug_access+all -kdb -lca"}
+{"vcs1": {"peak_mem": 493956}}
+{"vcselab": {"peak_mem": 176460}}

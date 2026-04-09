@@ -1,0 +1,64 @@
+[icc2-lic Tue Apr  7 00:37:23 2026] Command 'report_power' requires licenses
+[icc2-lic Tue Apr  7 00:37:23 2026] Attempting to check-out alternate set of keys directly with queueing
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending count request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Count request for 'ICCompilerII-8' returned 1 
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending check-out request for 'ICCompilerII-8' (1) with wait option
+[icc2-lic Tue Apr  7 00:37:23 2026] Check-out request for 'ICCompilerII-8' with wait option succeeded
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending checkout check request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Checkout check request for 'ICCompilerII-8' returned 0 
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending count request for 'ICCompilerII-8' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Count request for 'ICCompilerII-8' returned 1 
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending count request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Count request for 'ICCompilerII-NX' returned 1 
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending check-out request for 'ICCompilerII-NX' (1) with wait option
+[icc2-lic Tue Apr  7 00:37:23 2026] Check-out request for 'ICCompilerII-NX' with wait option succeeded
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending checkout check request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Checkout check request for 'ICCompilerII-NX' returned 0 
+[icc2-lic Tue Apr  7 00:37:23 2026] Sending count request for 'ICCompilerII-NX' 
+[icc2-lic Tue Apr  7 00:37:23 2026] Count request for 'ICCompilerII-NX' returned 1 
+[icc2-lic Tue Apr  7 00:37:23 2026] Check-out of alternate set of keys directly with queueing was successful
+****************************************
+Report : power
+        -hier
+        -significant_digits 2
+Design : cordic
+Version: W-2024.09
+Date   : Tue Apr  7 00:37:23 2026
+****************************************
+Information: Activity for scenario func::nom was cached, no propagation required. (POW-005)
+Mode: func
+Corner: nom
+Scenario: func::nom
+Voltage: 0.85
+Temperature: 125.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1fF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+Warning: Power table extrapolation (extrapolation mode) for port D on cell X1_reg[15] for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.000019 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell X1_reg[15] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell X1_reg[15] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell X1_reg[15] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell X1_reg[15] for parameter Cout. Lowest table value = 0.000100, highest table value = 0.008000, value = 0.000000 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port D on cell X1_reg[14] for parameter Tinp. Lowest table value = inf, highest table value = inf, value = 0.000019 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port CLK on cell X1_reg[14] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell X1_reg[14] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell X1_reg[14] for parameter Tinp. Lowest table value = 0.016000, highest table value = 1.024000, value = 0.000553 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port QN on cell X1_reg[14] for parameter Cout. Lowest table value = 0.000100, highest table value = 0.008000, value = 0.000000 (POW-046)
+Note - message 'POW-046' limit (10) exceeded. Remainder will be suppressed.
+
+
+Hierarchy                                                  Internal Power        Switching Power          Leakage Power            Total Power       %
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+cordic_cts                                                       3.16e+06               8.58e+05               1.04e+09               1.04e+09    100.00
+1

@@ -1,0 +1,134 @@
+ 
+****************************************
+Report : cell
+Design : cordic
+Version: W-2024.09
+Date   : Tue Apr  7 00:06:24 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U38                       NBUFFX2_RVT     saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U39                       INVX1_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U40                       INVX2_RVT       saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U41                       INVX2_RVT       saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U43                       NOR2X0_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U44                       INVX2_RVT       saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U45                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U46                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U47                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U48                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U49                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U50                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U51                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U52                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U53                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U54                       AND2X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U55                       AO22X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U56                       NOR2X0_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U57                       AO222X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.303872  
+U58                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U59                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U60                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+U61                       MUX41X1_RVT     saed32rvt_ss0p7vn40c
+                                                          5.591168  
+X1_reg[0]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[1]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[2]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[3]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[4]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[5]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[6]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[7]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[8]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[9]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[10]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[11]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[12]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[13]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[14]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+X1_reg[15]                DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[0]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[1]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[2]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[3]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[4]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[5]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[6]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[7]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[8]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[9]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[10]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[11]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[12]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[13]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[14]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[15]                 DFFSSRX1_RVT    saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+Z1_reg[0]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Z1_reg[1]                 DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+--------------------------------------------------------------------------------
+Total 57 cells                                            318.696583
+1

@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : cordic
+Version: W-2024.09
+Date   : Tue Apr  7 00:06:24 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ss0p7vn40c (File: /home/BloodNova001/VLSI/cordic/ref/lib/stdcell_rvt/saed32rvt_ss0p7vn40c.db)
+
+
+Operating Conditions: ss0p7vn40c   Library: saed32rvt_ss0p7vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+cordic                 8000              saed32rvt_ss0p7vn40c
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+cordic                                    0.250   10.520 2.71e+06   13.480 100.0
+1

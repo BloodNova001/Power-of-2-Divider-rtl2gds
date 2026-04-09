@@ -1,0 +1,24 @@
+#@ # 
+#@ # Running icc2_shell Version W-2024.09 for linux64 -- Aug 25, 2024
+#@ # Date:   Wed Apr  8 23:49:19 2026
+#@ # Run by: BloodNova001@ict-chipin.sot.pdpu.ac.in
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+open_lib /home/BloodNova001/VLSI/cordic/ICCII/CORDIC_LIB -edit
+open_block /home/BloodNova001/VLSI/cordic/ICCII/CORDIC_LIB:CORDIC.design
+link_block
+win_set_filter -visible -class cell -filter {assembly_die_margin bridge clock_margin filler_allowed_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin substrate} -layer {}
+win_set_filter -visible -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -visible -class pseudo_tsv -filter {deleted} -layer {}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell metal_area metal_area_hole placement_blockage }
+win_set_filter -class cell -filter {array assembly_die_margin bridge clock_margin filler_allowed_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin substrate} -layer {}
+win_set_filter -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -class pseudo_tsv -filter {deleted} -layer {}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via metal_area metal_area_hole placement_blockage }
+report_area
+report_timing

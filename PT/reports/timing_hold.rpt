@@ -1,0 +1,45 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : cordic
+Version: W-2024.09
+Date   : Wed Apr  8 23:52:54 2026
+****************************************
+
+
+  Startpoint: X1_reg[11] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[10] (rising edge-triggered flip-flop clocked by Clock)
+  Last common pin: Clock
+  Path Group: Clock
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock Clock (rise edge)                             0.000000   0.000000
+  clock network delay (propagated)                    0.000000   0.000000
+  X1_reg[11]/CLK (DFFX1_RVT)                          0.000000   0.000000 r
+  X1_reg[11]/Q (DFFX1_RVT)                            0.720613   0.720613 r
+  copt_h_inst_1440/Y (NBUFFX2_RVT)                    0.206890   0.927503 r
+  U60/Y (MUX41X1_RVT)                                 0.507917   1.435420 r
+  copt_h_inst_1442/Y (NBUFFX2_RVT)                    0.201522   1.636942 r
+  Y_reg[10]/D (DFFX1_RVT)                             0.000000   1.636942 r
+  data arrival time                                              1.636942
+
+  clock Clock (rise edge)                             0.000000   0.000000
+  clock network delay (propagated)                    0.000000   0.000000
+  Y_reg[10]/CLK (DFFX1_RVT)                                      0.000000 r
+  clock reconvergence pessimism                       0.000000   0.000000
+  clock uncertainty                                   0.200000   0.200000
+  library hold time                                   -0.042102  0.157898
+  data required time                                             0.157898
+  ------------------------------------------------------------------------------
+  data required time                                             0.157898
+  data arrival time                                              -1.636942
+  ------------------------------------------------------------------------------
+  slack (MET)                                                    1.479044
+
+
+1

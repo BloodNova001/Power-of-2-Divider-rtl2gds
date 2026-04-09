@@ -1,0 +1,1 @@
+SELECT timeout fd=5 rc=0 net_errno=4 remain_time=0 timeout=10 total_read=0

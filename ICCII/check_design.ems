@@ -1,0 +1,16 @@
+<Database>
+versionNumber:2
+Name/home/BloodNova001/VLSI/cordic/ICCII/check_design.ems
+Creation TimeTue Apr  7 00:18:06 2026
+Modified TimeTue Apr  7 00:18:06 2026
+Design Namecordic
+Library NameCORDIC_LIB
+</Database>
+<RuleCount>
+DFT-0111
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+DFT-011Informationreason10
+</Messages>

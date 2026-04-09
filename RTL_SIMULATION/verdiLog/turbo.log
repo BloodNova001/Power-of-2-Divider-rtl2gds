@@ -1,0 +1,3 @@
+Command Line: /home/synopsys_install/verdi/W-2024.09/platform/LINUXAMD64/bin/Novas -ssf cordic.fsdb -nologo
+uname(Linux ict-chipin.sot.pdpu.ac.in 4.18.0-553.el8_10.x86_64 #1 SMP Fri May 24 13:05:10 UTC 2024 x86_64)
+au time 230.974541 10.512821 1.727609 delta 289755136 289755136 total 1297817600 1297817600

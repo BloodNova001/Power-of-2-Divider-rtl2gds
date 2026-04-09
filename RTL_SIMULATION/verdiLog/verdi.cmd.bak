@@ -1,0 +1,31 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv" -args "Verdi"
+debImport "-dbdir" "/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv.daidir"
+debLoadSimResult /home/BloodNova001/VLSI/cordic/RTL_SIMULATION/cordic.fsdb
+wvCreateWindow
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "216" "244" "900" "700"
+verdiWindowResize -win $_Verdi_1 "312" "208" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBDrag -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvRenameGroup -win $_nWave2 {G1} {dut}
+wvAddSignal -win $_nWave2 "/cordic_tb/dut/X\[15:0\]" "/cordic_tb/dut/Y\[15:0\]" \
+           "/cordic_tb/dut/Z\[1:0\]" "/cordic_tb/dut/Clock"
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetCursor -win $_nWave2 4594.148258 -snap {("G2" 0)}
+verdiSetActWin -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+debExit

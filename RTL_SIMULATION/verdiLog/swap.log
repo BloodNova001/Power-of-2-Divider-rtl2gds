@@ -1,0 +1,39 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 73728 bytes [need 72K bytes if disable swap]
+
+used block: 2 [memory(2) file(0)]
+                 [ 8K(1) 64K(1) { total 72K bytes } ]
+overhead: (9514) bytes for (2) blocks [Average: (4757) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 3K(bytes) [0K bytes compressed data from file]
+access => 52524(times) 411M(bytes)
+          [hit ratio: 99.9981%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/verdiLog)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (3)
+closeHead: (1)
+closeTail: (2)
+openCnt: (2)
+fid(2): fd(24) fileName(/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/verdiLog/_swap_0001#1880993786#17993)
+	size(0) lastModTime(0) curModTime(1775556490)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv.daidir/kdb.elab++/work.lib++/cordic_tb.v.tdc)
+	size(1259) lastModTime(1775556317) curModTime(1775556317)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x203b8600) pre(0x1dfed770) next((nil))
+version(200506)
+date(Sep  2 2024 20:32:07)

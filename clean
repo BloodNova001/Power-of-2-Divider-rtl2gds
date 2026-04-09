@@ -1,0 +1,97 @@
+#!/bin/bash
+
+# Function to clean Design Compiler (DC)
+clean_dc() {
+    echo "Cleaning Design Compiler (DC) outputs..."
+    rm -rf DC/outputs
+    rm -rf DC/reports
+    rm -f  DC/*.log
+    rm -f  DC/*.svf
+    rm -rf DC/alib-52
+    echo "DC clean complete."
+    echo "--------------------------------------"
+}
+
+# Function to clean IC Compiler II (ICC2)
+clean_icc2() {
+    echo "Cleaning IC Compiler II (ICC2) outputs..."
+    rm -rf ICCII/outputs
+    rm -rf ICCII/reports
+    rm -rf ICCII/*.nlib
+    rm -rf ICCII/work
+    rm -f  ICCII/scripts/*.log
+    rm -f  ICCII/scripts/*.rpt
+    rm -f  ICCII/scripts/*.ems
+    rm -f  ICCII/scripts/*.svf
+    rm -rf  ICCII/scripts/legalizer_debug_plots
+    rm -rf  ICCII/scripts/work_dir
+    rm -rf  ICCII/work_dir
+    rm -f  ICCII/*.log
+    rm -f  ICCII/*.ems
+    rm -f  ICCII/*.rpt
+    rm -f  ICCII/*.svf
+    rm -f  ICCII/*.txt
+    rm -f  ICCII/scripts/*.txt
+    echo "ICC2 clean complete."
+    echo "--------------------------------------"
+}
+
+# Function to clean PrimeTime (PT)
+clean_pt() {
+    echo "Cleaning PrimeTime (PT) outputs..."
+    rm -rf PT/reports
+    rm -f  PT/*.txt
+    rm -f  PT/*.log
+    echo "PT clean complete."
+    echo "--------------------------------------"
+}
+
+# Function to clean VCS & Verdi (RTL Simulation)
+clean_sim() {
+    echo "Cleaning VCS & Verdi RTL Simulation outputs..."
+    rm -rf RTL_SIMULATION/csrc
+    rm -rf RTL_SIMULATION/simv.daidir
+    rm -f  RTL_SIMULATION/simv
+    rm -rf RTL_SIMULATION/verdiLog
+    rm -f RTL_SIMULATION/novas.*
+    rm -f RTL_SIMULATION/novas_dump.log
+    rm -f RTL_SIMULATION/*.fsdb
+    rm -f RTL_SIMULATION/*.log
+    rm -f RTL_SIMULATION/*.key
+    echo "Simulation clean complete."
+    echo "--------------------------------------"
+}
+
+# Check command line arguments
+case "$1" in
+    dc)
+        clean_dc
+        ;;
+    icc2)
+        clean_icc2
+        ;;
+    pt)
+        clean_pt
+        ;;
+    sim)
+        clean_sim
+        ;;
+    all)
+        clean_dc
+        clean_icc2
+        clean_pt
+        clean_sim
+        echo "All workspace directories have been completely reset."
+        ;;
+    *)
+        echo "Usage: ./clean {dc|icc2|pt|sim|all}"
+        echo ""
+        echo "Options:"
+        echo "  dc   - Clean only Design Compiler outputs"
+        echo "  icc2 - Clean only IC Compiler II outputs"
+        echo "  pt   - Clean only PrimeTime outputs"
+        echo "  sim  - Clean only VCS/Verdi Simulation outputs"
+        echo "  all  - Clean all outputs from all directories"
+        exit 1
+        ;;
+esac

@@ -1,0 +1,6 @@
+./outputs/cordic.spef.p1_125.spef for scenarios: 
+	 scenario: func::nom, corner type: late
+
+./outputs/cordic.spef.p2_125.spef for scenarios: 
+	 scenario: func::nom, corner type: early
+

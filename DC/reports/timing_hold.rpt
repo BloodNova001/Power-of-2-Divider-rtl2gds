@@ -1,0 +1,340 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : cordic
+Version: W-2024.09
+Date   : Tue Apr  7 00:06:24 2026
+****************************************
+
+Operating Conditions: ss0p7vn40c   Library: saed32rvt_ss0p7vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: X1_reg[15] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[15] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  X1_reg[15]/CLK (DFFX1_RVT)               0.00       0.00 r
+  X1_reg[15]/Q (DFFX1_RVT)                 0.68       0.68 f
+  Y_reg[15]/RSTB (DFFSSRX1_RVT)            0.00       0.68 f
+  data arrival time                                   0.68
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[15]/CLK (DFFSSRX1_RVT)             0.00       0.20 r
+  library hold time                       -0.12       0.08
+  data required time                                  0.08
+  -----------------------------------------------------------
+  data required time                                  0.08
+  data arrival time                                  -0.68
+  -----------------------------------------------------------
+  slack (MET)                                         0.61
+
+
+  Startpoint: X1_reg[14] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[14] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  X1_reg[14]/CLK (DFFX1_RVT)               0.00       0.00 r
+  X1_reg[14]/Q (DFFX1_RVT)                 0.68       0.68 f
+  U55/Y (AO22X1_RVT)                       0.32       1.00 f
+  Y_reg[14]/D (DFFX1_RVT)                  0.00       1.00 f
+  data arrival time                                   1.00
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[14]/CLK (DFFX1_RVT)                0.00       0.20 r
+  library hold time                       -0.04       0.16
+  data required time                                  0.16
+  -----------------------------------------------------------
+  data required time                                  0.16
+  data arrival time                                  -1.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.84
+
+
+  Startpoint: X1_reg[14] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[13] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  X1_reg[14]/CLK (DFFX1_RVT)               0.00       0.00 r
+  X1_reg[14]/Q (DFFX1_RVT)                 0.68       0.68 f
+  U57/Y (AO222X1_RVT)                      0.38       1.06 f
+  Y_reg[13]/D (DFFX1_RVT)                  0.00       1.06 f
+  data arrival time                                   1.06
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[13]/CLK (DFFX1_RVT)                0.00       0.20 r
+  library hold time                       -0.06       0.14
+  data required time                                  0.14
+  -----------------------------------------------------------
+  data required time                                  0.14
+  data arrival time                                  -1.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.92
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[15] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U43/Y (NOR2X0_RVT)                       0.33       1.11 f
+  Y_reg[15]/D (DFFSSRX1_RVT)               0.00       1.11 f
+  data arrival time                                   1.11
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[15]/CLK (DFFSSRX1_RVT)             0.00       0.20 r
+  library hold time                       -0.11       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -1.11
+  -----------------------------------------------------------
+  slack (MET)                                         1.02
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[5] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U49/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[5]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[5]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[4] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U50/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[4]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[4]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[3] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U51/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[3]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[3]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[2] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U52/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[2]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[2]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U53/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[1]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[1]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+  Startpoint: Z1_reg[1] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[0] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cordic             8000                  saed32rvt_ss0p7vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  Z1_reg[1]/CLK (DFFX1_RVT)                0.00       0.00 r
+  Z1_reg[1]/Q (DFFX1_RVT)                  0.78       0.78 r
+  U44/Y (INVX2_RVT)                        0.17       0.95 f
+  U61/Y (MUX41X1_RVT)                      0.28       1.23 r
+  Y_reg[0]/D (DFFX1_RVT)                   0.00       1.23 r
+  data arrival time                                   1.23
+
+  clock Clock (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.20       0.20
+  Y_reg[0]/CLK (DFFX1_RVT)                 0.00       0.20 r
+  library hold time                       -0.01       0.19
+  data required time                                  0.19
+  -----------------------------------------------------------
+  data required time                                  0.19
+  data arrival time                                  -1.23
+  -----------------------------------------------------------
+  slack (MET)                                         1.04
+
+
+1

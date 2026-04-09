@@ -1,0 +1,46 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : cordic
+Version: W-2024.09
+Date   : Wed Apr  8 23:52:54 2026
+****************************************
+
+
+  Startpoint: Z1_reg[0] (rising edge-triggered flip-flop clocked by Clock)
+  Endpoint: Y_reg[8] (rising edge-triggered flip-flop clocked by Clock)
+  Last common pin: Clock
+  Path Group: Clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock Clock (rise edge)                             0.000000   0.000000
+  clock network delay (propagated)                    0.000000   0.000000
+  Z1_reg[0]/CLK (DFFX2_RVT)                           0.000000   0.000000 r
+  Z1_reg[0]/Q (DFFX2_RVT)                             0.932797   0.932797 r
+  HFSBUF_431_0/Y (NBUFFX2_RVT)                        0.346292   1.279089 r
+  copt_h_inst_1441/Y (NBUFFX4_RVT)                    0.387964   1.667053 r
+  U46/Y (MUX41X1_RVT)                                 1.001266   2.668319 f
+  copt_h_inst_1438/Y (DELLN1X2_RVT)                   1.168565   3.836884 f
+  Y_reg[8]/D (DFFX1_RVT)                              0.000000   3.836884 f
+  data arrival time                                              3.836884
+
+  clock Clock (rise edge)                             10.000000  10.000000
+  clock network delay (propagated)                    0.000000   10.000000
+  Y_reg[8]/CLK (DFFX1_RVT)                                       10.000000 r
+  clock reconvergence pessimism                       0.000000   10.000000
+  clock uncertainty                                   -0.200000  9.800000
+  library setup time                                  -0.525418  9.274582
+  data required time                                             9.274582
+  ------------------------------------------------------------------------------
+  data required time                                             9.274582
+  data arrival time                                              -3.836884
+  ------------------------------------------------------------------------------
+  slack (MET)                                                    5.437698
+
+
+1

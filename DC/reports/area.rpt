@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : cordic
+Version: W-2024.09
+Date   : Tue Apr  7 00:06:24 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p7vn40c (File: /home/BloodNova001/VLSI/cordic/ref/lib/stdcell_rvt/saed32rvt_ss0p7vn40c.db)
+
+Number of ports:                           35
+Number of nets:                            77
+Number of cells:                           58
+Number of combinational cells:             23
+Number of sequential cells:                34
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      10
+
+Combinational area:                 93.524991
+Buf/Inv area:                        7.878464
+Noncombinational area:             225.171591
+Macro/Black Box area:                0.000000
+Net Interconnect area:              50.316178
+
+Total cell area:                   318.696583
+Total area:                        369.012760
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+cordic                             318.6966    100.0   93.5250   225.1716  0.0000  cordic
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  93.5250   225.1716  0.0000
+
+1

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#==============================================================
+# Synopsys VCS & Verdi Simulation Script
+# File: run_sim
+#==============================================================
+
+DESIGN_NAME="design_name_here"
+
+# Compile Design and Testbench
+vcs -full64 "${DESIGN_NAME}_rtl.v" "${DESIGN_NAME}_tb.v" -debug_access+all -kdb -lca
+
+# Run simulation
+./simv Verdi
+
+# Open Verdi with the generated FSDB
+verdi -ssf "${DESIGN_NAME}.fsdb" -nologo 
+

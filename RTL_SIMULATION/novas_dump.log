@@ -1,0 +1,310 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_dump_var_vpdg('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_dump_var_vpdg')
+ANF: vcsd_begin_no_value_var_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vhdi_dt_get_type('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_dt_get_vhdl_integer_range_info('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_dt_get_vhdl_integer_range_info')
+ANF: vhdi_def_traverse_module('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_set_int_subtype('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_set_int_subtype')
+ANF: vhdi_set_fixed_point('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_set_fixed_point')
+ANF: vhdi_get_fsdb_option('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: /home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv
+ option[1]: /home/synopsys_install/vcs/W-2024.09/linux64/bin/vcs1
+ option[2]: -Mcc=gcc
+ option[3]: -Mcplusplus=g++
+ option[4]: -Masflags=
+ option[5]: -Mcfl= -pipe -fPIC -O -I/home/synopsys_install/vcs/W-2024.09/include 
+ option[6]: -Mxllcflags=
+ option[7]: -Mxcflags= -pipe -fPIC -I/home/synopsys_install/vcs/W-2024.09/include
+ option[8]: -Mldflags= -rdynamic 
+ option[9]: -Mout=simv
+ option[10]: -Mamsrun=
+ option[11]: -Mvcsaceobjs=
+ option[12]: -Mobjects= /home/synopsys_install/vcs/W-2024.09/linux64/lib/libvirsim.so /home/synopsys_install/vcs/W-2024.09/linux64/lib/liberrorinf.so /home/synopsys_install/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so /home/synopsys_install/vcs/W-2024.09/linux64/lib/libvfs.so 
+ option[13]: -Mexternalobj=
+ option[14]: -Msaverestoreobj=/home/synopsys_install/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o
+ option[15]: -Mcrt0=
+ option[16]: -Mcrtn=
+ option[17]: -Mcsrc=
+ option[18]: -Msyslibs=/home/synopsys_install/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[19]: -full64
+ option[20]: -debug_access+all
+ option[21]: +vpi
+ option[22]: +vcsd1
+ option[23]: +itf+/home/synopsys_install/vcs/W-2024.09/linux64/lib/vcsdp_lite.tab
+ option[24]: -kdb
+ option[25]: -Xufe=2steps
+ option[26]: -kdb=common_elab
+ option[27]: -Xufe=2steps
+ option[28]: -lca
+ option[29]: -kdb=common_elab
+ option[30]: -Xufe=2steps
+ option[31]: -kdb=common_elab
+ option[32]: -Xufe=2steps
+ option[33]: -picarchive
+ option[34]: -P
+ option[35]: /home/synopsys_install/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+ option[36]: -fsdb
+ option[37]: -gen_obj
+ option[38]: cordic_rtl.v
+ option[39]: cordic_tb.v
+ option[40]: -load
+ option[41]: /home/synopsys_install/verdi/W-2024.09/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+Chronologic Simulation VCS Release W-2024.09_Full64
+Linux 4.18.0-553.el8_10.x86_64 #1 SMP Fri May 24 13:05:10 UTC 2024 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked		64 kbytes
+maxproc		59412
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+XDG_RUNTIME_DIR=/run/user/1000
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+LOADEDMODULES=
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/11915,unix/unix:/tmp/.ICE-unix/11915
+XMODIFIERS=@im=ibus
+MODULESHOME=/usr/share/Modules
+XDG_SESSION_TYPE=wayland
+which_declare=declare -f
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=fb1fe3593f973de488612b0869d4d482
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.YV09M3
+QT_IM_MODULE=ibus
+USER=BloodNova001
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+DBUS_STARTER_BUS_TYPE=session
+SHLVL=1
+XDG_MENU_PREFIX=gnome-
+XDG_SESSION_DESKTOP=gnome
+SHELL=/bin/bash
+MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27020@c2s.cdacb.in
+USERNAME=BloodNova001
+XDG_DATA_DIRS=/home/BloodNova001/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+STARRC_HOME=/home/synopsys_install/starrc/W-2024.09
+HISTCONTROL=ignoredups
+S_COLORS=auto
+WAYLAND_DISPLAY=wayland-0
+PWD=/home/BloodNova001
+HOME=/home/BloodNova001
+DC_HOME=/home/synopsys_install/syn/W-2024.09
+MANPATH=:
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=fb1fe3593f973de488612b0869d4d482
+DISPLAY=:0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+HISTSIZE=1000
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+PATH=/home/synopsys_install/vcs/W-2024.09/bin:/home/synopsys_install/prime/W-2024.09/bin:/home/synopsys_install/starrc/W-2024.09/bin:/home/synopsys_install/syn/W-2024.09/bin:/home/synopsys_install/icc2/W-2024.09/bin:/home/synopsys_install/verdi/W-2024.09/bin:/home/synopsys_install/verdi/W-2024.09/bin:/home/BloodNova001/.local/bin:/home/BloodNova001/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+XDG_VTNR=2
+GDMSESSION=gnome
+JOURNAL_STREAM=9:149927
+XDG_SESSION_ID=8
+XDG_SEAT=seat0
+INVOCATION_ID=32a0e88c28024f1e92da32db5ac1988c
+LANG=en_US.UTF-8
+LOGNAME=BloodNova001
+XDG_CURRENT_DESKTOP=GNOME
+HOSTNAME=ict-chipin.sot.pdpu.ac.in
+DESKTOP_SESSION=gnome
+ICC_HOME=/home/synopsys_install/icc2/W-2024.09
+VERDI_HOME=/home/synopsys_install/verdi/W-2024.09
+NOVAS_HOME=/home/synopsys_install/verdi/W-2024.09
+MAIL=/var/spool/mail/BloodNova001
+VCS_HOME=/home/synopsys_install/vcs/W-2024.09
+GDM_LANG=en_US.UTF-8
+MANAGERPID=11848
+PRIME_HOME=/home/synopsys_install/prime/W-2024.09
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_STACK_EXEC=true
+VCS_EXEC_DONE=1
+LC_ALL=C
+VCS_STOP_SAFE=1
+DVE=/home/synopsys_install/vcs/W-2024.09/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/BloodNova001/.ict-chipin.sot.pdpu.ac.in-borrow.txt
+FLEXLM_DIAGNOSTICS=3
+Runtime command line arguments:
+argv[0]=/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv
+219 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.080 user,  247.04M mem
+220 Elapsed time:    0:00:03    Tue Apr  7 06:07:49 2026
+221 User CPU time used: 0 seconds
+222 System CPU time used: 0 seconds
+223 pliAppInit
+224 FSDB_GATE is set.
+225 FSDB_RTL is set.
+226 FSDB_DYNAMIC_ALIAS is enabled.
+227 libnuma.so open fail. libnuma.so: cannot open shared object file: No such file or directory
+228 FSDB NUMA optimize not available.
+229 FSDB_PACKED_MODE is enabled.
+230 FSDB_GATE_PACKED is enabled.
+231 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+232 FSDB_REDUCE_VC_MEM is enabled.
+233 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+234 Enable Parallel Dumping.
+235 pliAppMiscSet: New Sim Round
+236 pliEntryInit
+237 LIBSSCORE=found /home/synopsys_install/verdi/W-2024.09/share/PLI/lib/LINUXAMD64/libsscore_vcs202409.so through $NOVAS_HOME setting.
+238 FSDB Dumper for VCS, Release Verdi_W-2024.09, Linux x86_64/64bit, 08/17/2024
+239 (C) 1996 - 2024 by Synopsys, Inc.
+240 sps_call_fsdbDumpfile_main at 0 : cordic_tb.v(14)
+241 argv[0]: (cordic.fsdb)
+242 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+243 *Verdi* : Create FSDB file 'cordic.fsdb'
+244 [spi_vcs_vd_ppi_create_root]: no upf option
+245 DUMPER_MEMORY_REDUCTION is enabled.
+246 compile option from '/home/BloodNova001/VLSI/cordic/RTL_SIMULATION/simv.daidir/vcs_rebuild'.
+247   "vcs '-full64' 'cordic_rtl.v' 'cordic_tb.v' '-debug_access+all' '-kdb' '-lca' 2>&1"
+248 DVDI_is_vir_unload_enabled is enable
+249 FSDB_VCS_ENABLE_NATIVE_VC is enable
+250 FSDB_VCS_ENABLE_MEMORY_NATIVE_VC is enabled
+251 sps_call_fsdbDumpvars_vd_main at 0 : cordic_tb.v(15)
+252 *Verdi* : Begin traversing the scopes, layer (0).
+253 *Verdi* : End of traversing.
+254 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.030 sys,  0.090 user,  345.52M mem
+                   incr: 0.000 sys,  0.010 user,  8.62M mem
+                   accu: 0.000 sys,  0.010 user,  8.62M mem
+              accu incr: 0.000 sys,  0.010 user,  8.62M mem
+
+          Count usage: 11 var,  11 idcode,  6 callback
+                 incr: 11 var,  11 idcode,  6 callback
+                 accu: 11 var,  11 idcode,  6 callback
+            accu incr: 11 var,  11 idcode,  6 callback
+255 Idcode  0 - bc1:0  mda:0
+256 Elapsed time:    0:00:03    Tue Apr  7 06:07:49 2026
+257 User CPU time used: 0 seconds
+258 System CPU time used: 0 seconds
+259 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.030 sys,  0.090 user,  345.52M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.000 sys,  0.010 user,  8.62M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 11 var,  11 idcode,  6 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 11 var,  11 idcode,  6 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+260 Idcode  0 - bc1:0  mda:0
+261 Elapsed time:    0:00:03    Tue Apr  7 06:07:49 2026
+262 User CPU time used: 0 seconds
+263 System CPU time used: 0 seconds
+264 End of simulation at 60000
+265 Memory usage: 345.518 M
+266 Maximum resident set size: 115 MB
+267 Hard page faults: 0
+268 Soft page faults: 12941
+269 Elapsed time:    0:00:03    Tue Apr  7 06:07:49 2026
+270 User CPU time used: 0 seconds
+271 System CPU time used: 0 seconds
+272 Begin FSDB profile info:
+273 FSDB Writer : bc1(12) bcn(25) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.007134) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+274 End FSDB profile info
+275 FSDB closed. Name: cordic.fsdb Size: 9309
+276 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+277                      - BlockUsed:1 Acquire:0 BufferUsed:749
+278                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:0
+279                      - MainProducerTime:0.133946942 TotalConsumerTime:0.000000000
+280                      - ElapsedTime:0.045825000
+281 Producer   0 profile - BlockUsed:2 Acquire:0 BufferUsed:749
+282 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+283                      - BlockUsed:2 Acquire:0 BufferUsed:749
+284 SimExit
+285 Elapsed time:    0:00:03    Tue Apr  7 06:07:49 2026
+286 User CPU time used: 0 seconds
+287 System CPU time used: 0 seconds
+288 Sim process exit
