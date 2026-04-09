@@ -93,7 +93,29 @@ This makes it:
 
 RTL → Synthesis → Floorplan → Placement → Routing → GDSII
 
+### Schematic
+
 ![alt text](schematic_dc-1.png)
+
+### Floorplan
+
+![alt text](floorplan.png)
+
+### Powerplan
+
+![alt text](powerplanning.png)
+
+### Placement
+
+![alt text](placement.png)
+
+### Clock tree synthesis
+
+![alt text](cts.png)
+
+### Routing
+
+![alt text](routing.png)
 
 ---
 
